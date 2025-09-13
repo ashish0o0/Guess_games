@@ -1,0 +1,3 @@
+cd C:\Users\Ashish kumar\Desktop\c in vstudio\snake game\code
+g++ -o snake_game snake_game.cpp
+snake_game

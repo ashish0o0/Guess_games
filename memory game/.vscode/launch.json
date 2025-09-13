@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Memory Game",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/memory",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "preLaunchTask": "build memory game",
+            "miDebuggerPath": "gdb"
+        }
+    ]
+}

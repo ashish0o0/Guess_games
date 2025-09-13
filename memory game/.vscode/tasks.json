@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build memory game",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "memory.cpp",
+                "-o",
+                "memory",
+                "-I", "C:/Users/Ashish kumar/Desktop/SFML/include",
+                "-L", "C:/Users/Ashish kumar/Desktop/SFML/lib",
+                "-lsfml-graphics",
+                "-lsfml-window",
+                "-lsfml-system",
+                "-std=c++17"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
